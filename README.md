@@ -20,7 +20,13 @@ There are only two main folders here, one of which has a fixed name called *QD_U
 - ***QD_\<Printer model\>_SOC***:Including firmware information and all changes we made to Klipper, Moonraker, Fluid, etc
 
 *\<Printer model\>_\<VERSION\>* directory contains four main software:
-- ***fluidd***:
-- ***klipper***:
-- ***moonraker***:
-- ***xindi***:
+- ***fluidd***
+- ***klipper***
+- ***moonraker***
+- ***xindi***
+
+## Detailed update process
+**Use the recommended packaging file**
+1. Prepare a blank named USB drive
+2. 
+<a href="/QIDITECH/QIDI_PLUS3/archive/refs/heads/main.zip"  download="QIDI.zip">Download:Click here</a>
