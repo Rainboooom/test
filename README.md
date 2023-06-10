@@ -28,5 +28,4 @@ There are only two main folders here, one of which has a fixed name called *QD_U
 ## Detailed update process
 **Use the recommended packaging file**
 1. Prepare a blank named USB drive
-2. 
-<a href="/QIDITECH/QIDI_PLUS3/archive/refs/heads/main.zip"  download="QIDI.zip">Download:Click here</a>
+2. <a href="https://github.com/QIDITECH/QIDI_PLUS3/tree/main/QD_Update"  download="QIDI.zip">Download:Click here</a>
