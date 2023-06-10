@@ -12,3 +12,15 @@ The detailed operation procedures for these two update methods will be written i
 
 ## Introduction to directory structure
 
+There are only two main folders here, one of which has a fixed name called *QD_Update*, the other folder is named in the form of a model suffix version number,such as *plus3_V2.0.21*
+
+*QD_Update* directory contains three files:
+- ***printer.cfg***    :Basic and necessary configuration files, including 3D printer configuration parameters, leveling parameters, etc
+- ***QD_\<Printer model\>_UI\<UI model\>***:The update file for the machine screen and the version of the UI update file need to be consistent with the version of the SOC file, otherwise there may be errors in UI mismatch with the system.
+- ***QD_\<Printer model\>_SOC***:Including firmware information and all changes we made to Klipper, Moonraker, Fluid, etc
+
+*\<Printer model\>_\<VERSION\>* directory contains four main software:
+- ***fluidd***:
+- ***klipper***:
+- ***moonraker***:
+- ***xindi***:
