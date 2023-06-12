@@ -28,4 +28,11 @@ There are only two main folders here, one of which has a fixed name called *QD_U
 ## Detailed update process
 **Use the recommended packaging file**
 1. Prepare a blank named USB drive
-2. <a href="https://github.com/QIDITECH/QIDI_PLUS3/tree/main/QD_Update"  download="QIDI.zip">Download:Click here</a>
+2. Create a new folder on the USB drive and name it *QD_ Update*
+3. Download all files in the *QD_Update* folder and save them to the folder with the same name on your USB drive. <a href="https://github.com/QIDITECH/QIDI_PLUS3/tree/main/QD_Update"  download="QIDI.zip">Files:Click here</a>
+4. Insert the USB flash disk directly into the USB interface of the machine. If your operation is correct, you can see the update prompt button when you enter the version information interface. When you press the update button, a prompt will appear. Please press the shutdown button after the prompt appears, and wait 20 seconds before restarting the machine.
+5. After restarting, an automatic update will occur, which will take about fifteen minutes. Please be patient and ensure that the power is connected to avoid any issues with the update. After the update is completed, there will be an update completion prompt.
+
+**Update by replacing files**
+`This method carries great risks, as errors can lead to many unexpected errors, which will affect our after-sales service to continue providing you with continuous service`
+1. 
