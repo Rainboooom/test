@@ -2,7 +2,8 @@
 <p align="center"><a href="/LICENSE"><img alt="GPL-V3.0 License" src="qidi.svg"></a></p>
 
 # Document Usage Instructions
-
+QIDI
+Thank you very much for open-source projects such as Klipper, Mainmail, Moonraker, Fluidd, etc. Please support these projects
 This document contains the updated files and source code for each version of the QIDI product, as well as two update methods:
 
 1. Use the recommended packaging file to update the system through the machine's automatic update function  
