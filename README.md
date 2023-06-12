@@ -1,4 +1,4 @@
-<p align="center"><img src="微信图片_20230610094658.png" height="240" alt="QIDI's logo" /></p>
+<p align="center"><img src="qidi.png" height="240" alt="QIDI's logo" /></p>
 <p align="center"><a href="/LICENSE"><img alt="GPL-V3.0 License" src="qidi.svg"></a></p>
 
 # Document Usage Instructions
