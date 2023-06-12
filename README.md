@@ -33,6 +33,18 @@ There are only two main folders here, one of which has a fixed name called *QD_U
 4. Insert the USB flash disk directly into the USB interface of the machine. If your operation is correct, you can see the update prompt button when you enter the version information interface. When you press the update button, a prompt will appear. Please press the shutdown button after the prompt appears, and wait 20 seconds before restarting the machine.
 5. After restarting, an automatic update will occur, which will take about fifteen minutes. Please be patient and ensure that the power is connected to avoid any issues with the update. After the update is completed, there will be an update completion prompt.
 
-**Update by replacing files**
-`This method carries great risks, as errors can lead to many unexpected errors, which will affect our after-sales service to continue providing you with continuous service`
-1. 
+**Update by replacing files**</br>
+`This method carries great risks, as errors can lead to many unexpected errors, which will affect our after-sales service to continue providing you with continuous service`</br>
+1. Connect your printer device through SSH.
+2. Confirm which software you need to replace.Download the corresponding file and replace the software through SSH connection.The following are the paths of each software within the system.
+
+  Software|Directory
+  ---|---
+  fluidd|/home/mks/
+  klipper|/home/mks/
+  moonraker|/home/mks/
+  xindi|/root/
+  
+3. Under the corresponding path, replace the corresponding folder as a whole.
+  
+  
