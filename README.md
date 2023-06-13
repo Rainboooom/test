@@ -1,9 +1,14 @@
 <p align="center"><img src="QIDI.png" height="240" alt="QIDI's logo" /></p>
 <p align="center"><a href="/LICENSE"><img alt="GPL-V3.0 License" src="qidi.svg"></a></p>
 
-# Document Usage Instructions
-QIDI
-Thank you very much for open-source projects such as Klipper, Mainmail, Moonraker, Fluidd, etc. Please support these projects
+# Document Instructions
+The 3D printers of QIDI are based on Klipper.Based on the Klipper open source project, we have made some modifications to its source code to meet some of the user's needs.At the same time, we have also made modifications to Moonraker and Fluid, so that the screens we set can correspond to the operations on the page.
+Thanks to the developers and maintainers of these open source projects.Please consider using or supporting these powerful projects.
+- **Klipper**
+- **Fluidd**
+- **Moonraker**
+
+
 This document contains the updated files and source code for each version of the QIDI product, as well as two update methods:
 
 1. Use the recommended packaging file to update the system through the machine's automatic update function  
