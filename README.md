@@ -43,7 +43,7 @@ There are only two main folders here, one of which has a fixed name called *QD_U
 *This method carries great risks, as errors can lead to many unexpected errors, which will affect our after-sales service to continue providing you with continuous service*</br>
 1. Connect your printer device through SSH.
 2. Confirm which software you need to replace.Download the corresponding file and replace the software through SSH connection.The following are the paths of each software within the system.
-
+  
   Software|Directory
   ---|---
   fluidd|/home/mks/
@@ -52,9 +52,8 @@ There are only two main folders here, one of which has a fixed name called *QD_U
   
 3. If there is no need to update Xindi, simply replace it. For example, if I replace the klipper folder, save it and restart it.
 4. If you want to recompile and install xindi through source code
-> Log in as *root* and enter the command `ls` to make sure you are log in directory /root/ and *xindi* directory exists.
-> 
 > ```shell
+> #enter these command to set up xindi
 > cd /root
 > rm -rf xindi
 > git clone
@@ -63,7 +62,7 @@ There are only two main folders here, one of which has a fixed name called *QD_U
 > cmake ..
 > make
 > ```
-
+5. The complete process takes about ten minutes, when you see that the compilation progress has reached 100%, it indicates that you have completed the replacement. Just restart the machine.
 
 
 
