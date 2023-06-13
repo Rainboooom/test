@@ -40,7 +40,7 @@ There are only two main folders here, one of which has a fixed name called *QD_U
 5. After restarting, an automatic update will occur, which will take about forty minutes minutes. Please be patient and ensure that the power is connected to avoid any issues with the update. After the update is completed, there will be an update completion prompt.
 
 **Update by replacing files**</br>
-`This method carries great risks, as errors can lead to many unexpected errors, which will affect our after-sales service to continue providing you with continuous service`</br>
+*This method carries great risks, as errors can lead to many unexpected errors, which will affect our after-sales service to continue providing you with continuous service*</br>
 1. Connect your printer device through SSH.
 2. Confirm which software you need to replace.Download the corresponding file and replace the software through SSH connection.The following are the paths of each software within the system.
 
@@ -51,6 +51,28 @@ There are only two main folders here, one of which has a fixed name called *QD_U
   moonraker|/home/mks/
   
 3. If there is no need to update Xindi, simply replace it. For example, if I replace the klipper folder, save it and restart it.
-4. > 
-  
+4. If you want to recompile and install xindi through source code
+> Log in as *root* and enter the command `ls` to make sure you are log in directory /root/ and *xindi* directory exists.
+> 
+> ```shell
+> cd /root
+> rm -rf xindi
+> git clone
+> mv QIDISmart3 xindi
+> cd /root/xindi/build
+> cmake ..
+> make
+> ```
+
+
+
+
+
+
+
+
+
+
+
+
   
